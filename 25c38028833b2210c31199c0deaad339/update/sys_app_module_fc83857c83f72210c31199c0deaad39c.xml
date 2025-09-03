@@ -4,7 +4,7 @@
         <application display_value="Netflix">aae0c57c83f72210c31199c0deaad388</application>
         <assessment/>
         <device_type/>
-        <filter table="x_1795292_netflix_review">state=2^EQ<item display_value="Awaiting Modertor's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+        <filter table="x_1795292_netflix_review">state=2^EQ<item display_value="Awaiting Moderator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
