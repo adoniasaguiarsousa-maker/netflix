@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Netflix" name="Netflix">da20e6a283732210c31199c0deaad3b1</category>
         <collection>x_1795292_netflix_review</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -36,8 +36,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Teste</p>
-<p>Number: ${number}<br><br>State: ${state}</p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}<br><br>Thank you for your review for the ${media.type} ${media.title}.</p>
+<p><img style="margin: 20px; width: 200px; border=radius: 20px;" src="${media.poster}"></p>
+<p>If you want to send more reviews, click <a href="https://dev265639.service-now.com/sp?id=sc_cat_item&amp;sys_id=c9fae549837f6210c31199c0deaad3d9" target="_blank" rel="noopener">here</a></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Review Approved</name>
@@ -51,7 +52,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your review ${number} is  ${state}</subject>
+        <subject>Your review ${number} is  ${state}!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -59,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>960a6c718373a210c31199c0deaad364</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
@@ -67,7 +68,7 @@
         <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
         <sys_update_name>sysevent_email_action_960a6c718373a210c31199c0deaad364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-05 20:28:39</sys_updated_on>
+        <sys_updated_on>2025-09-08 14:03:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>
