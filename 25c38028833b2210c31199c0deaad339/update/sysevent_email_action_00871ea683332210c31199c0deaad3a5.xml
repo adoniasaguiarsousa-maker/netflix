@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name} sadly your review ${number} is ${state}...<br><br>The reason was: Reproval Reason: ${reproval}.<br><br>Thank you for your review for the ${media.type} ${media.title}.</p>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name} sadly your review ${number} is ${state}...<br><br>The reason was: ${reproval}.<br><br>Thank you for your review for the ${media.type} ${media.title}.</p>
 <p><img style="margin: 20px; width: 200px; border=radius: 20px;" src="${media.poster}"></p>
 <p>If you want to send more reviews, click <a href="https://dev265639.service-now.com/sp?id=sc_cat_item&amp;sys_id=c9fae549837f6210c31199c0deaad3d9" target="_blank" rel="noopener">here</a></p>]]></message_html>
         <message_list/>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00871ea683332210c31199c0deaad3a5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Review Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
         <sys_update_name>sysevent_email_action_00871ea683332210c31199c0deaad3a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 14:03:32</sys_updated_on>
+        <sys_updated_on>2025-09-08 20:50:29</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>

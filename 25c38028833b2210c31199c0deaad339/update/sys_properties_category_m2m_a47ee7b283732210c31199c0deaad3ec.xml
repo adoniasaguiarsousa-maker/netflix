@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Netflix">189ce3f283732210c31199c0deaad381</category>
+        <order>500</order>
+        <property display_value="x_1795292_netflix.integration_retry_count" name="x_1795292_netflix.integration_retry_count">806e6ff283732210c31199c0deaad395</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 13:10:31</sys_created_on>
+        <sys_id>a47ee7b283732210c31199c0deaad3ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1795292_netflix.integration_retry_count.Netflix</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a47ee7b283732210c31199c0deaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:17:45</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
