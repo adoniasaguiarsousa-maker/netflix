@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Query Movies by Genres</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+ 
+    var returnObj = {};
+ 
+    var grGenres = new GlideRecord("x_1795292_netflix_genre"); // cria uma nova instância de glideRecord na tabela de genero
+    grGenres.query(); 
+    while(grGenres.next()) {
+        returnObj[grGenres.getValue("name")] = [];
+        var grMedias = new GlideRecord("x_1795292_netflix_media"); //cria uma nova instância de glideRecord na tabela de Medias
+        //grMedias.addEncodedQuery("state=3^integration_state=3^genreLIKE" + grGenres.getValue("sys_id"));
+        grMedias.addEncodedQuery("genreLIKE" + grGenres.getValue("sys_id"));
+        grMedias.query();
+        while(grMedias.next()) {
+            returnObj[grGenres.getValue("name")].push({
+                "name": grMedias.getValue("title"),
+                "average_rating": grMedias.getValue("average_rating")
+            });
+        }
+    }
+ 
+    return returnObj;
+ 
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1795292_netflix/software_x/query_movies_by_genres</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/query_movies_by_genres</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 20:56:39</sys_created_on>
+        <sys_id>c4a5f4c08380b210c31199c0deaad38a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Query Movies by Genres</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>sys_ws_operation_c4a5f4c08380b210c31199c0deaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 20:57:30</sys_updated_on>
+        <web_service_definition display_value="Software X">3d395b3f83bb6210c31199c0deaad315</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c4a5f4c08380b210c31199c0deaad38a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 20:56:39</sys_created_on>
+        <sys_id>b1e57cc08380b210c31199c0deaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 20:56:39</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

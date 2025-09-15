@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.media-list {&#13;
+  padding: 16px;&#13;
+  background: transparent;&#13;
+}&#13;
+&#13;
+/* header row */&#13;
+.media-list .sp-row { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }&#13;
+.media-list .sp-heading { margin:0; font-size:18px; }&#13;
+&#13;
+/* search */&#13;
+.media-list .search-wrap { max-width:320px; width:100%; }&#13;
+.media-list input.form-control { width:100%; }&#13;
+&#13;
+/* table */&#13;
+.media-list table { width:100%; border-collapse: collapse; }&#13;
+.media-list th { text-align:left; padding:8px 12px; font-weight:600; }&#13;
+.media-list td { padding:8px 12px; vertical-align:middle; }&#13;
+&#13;
+/* poster */&#13;
+.media-poster {&#13;
+  width:80px;&#13;
+  height:120px;&#13;
+  object-fit:cover;&#13;
+  border-radius:4px;&#13;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);&#13;
+}&#13;
+&#13;
+/* título */&#13;
+.media-title { font-weight:600; max-width:320px; word-break:break-word; }&#13;
+&#13;
+/* responsive */&#13;
+@media (max-width: 600px) {&#13;
+  .media-poster { width:60px; height:90px; }&#13;
+  .media-list { padding:8px; }&#13;
+  .media-list th, .media-list td { padding:6px; font-size:13px; }&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Lista de midias do app netflix</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Media List Netflix</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.filmes = [];
+
+  var gr = new GlideRecord('x_1795292_netflix_media');
+  gr.orderByDesc('sys_created_on');
+  gr.query();
+
+  while (gr.next()) {
+    data.filmes.push({
+      sys_id: gr.getValue('sys_id'),
+      title: gr.getValue('title'),
+      type: gr.getValue('type'),
+      year: gr.getValue('year'),
+      poster_url: gr.getValue('poster') || '',
+      description: gr.getValue('short_description') || gr.getValue('description') || ''
+    });
+  }
+
+  data.totalReturned = data.filmes.length;
+  data.hasMore = false; 
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 12:25:29</sys_created_on>
+        <sys_id>94ba1e3c83003210c31199c0deaad33f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Media List Netflix</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>sp_widget_94ba1e3c83003210c31199c0deaad33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 12:52:50</sys_updated_on>
+        <template><![CDATA[<div class="media-list">
+  <div class="sp-row sp-middle sp-between">
+    <h2 class="sp-heading">Lista de Mídias</h2>
+    <div class="search-wrap">
+      <input type="text" ng-model="sysparmSearch" ng-change="search()"
+             placeholder="Pesquisar por título, tipo ou ano" class="form-control" />
+    </div>
+  </div>
+
+  <div ng-if="!data.filmes || data.filmes.length === 0" class="empty-state">
+    Nenhuma mídia encontrada.
+  </div>
+
+  <table class="table table-striped" ng-if="data.filmes && data.filmes.length > 0">
+    <thead>
+      <tr>
+        <th>Poster</th>
+        <th>Título</th>
+        <th>Tipo</th>
+        <th>Ano</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="filme in data.filmes">
+        <td style="width:100px;">
+          <img ng-src="{{filme.poster_url || '/static/images/default_poster.png'}}"
+               alt="{{filme.title}}"
+               class="media-poster" />
+        </td>
+        <td class="media-title">{{filme.title}}</td>
+        <td>{{filme.type}}</td>
+        <td>{{filme.year}}</td>
+        <td style="width:120px;">
+          <button class="btn btn-sm" ng-click="openDetail(filme)">Detalhes</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="sp-row sp-center" ng-if="data.hasMore">
+    <small>Mais registros disponíveis — implemente paginação se necessário.</small>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>94ba1e3c83003210c31199c0deaad33f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 12:25:28</sys_created_on>
+        <sys_id>8fad16f883003210c31199c0deaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 12:25:28</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
