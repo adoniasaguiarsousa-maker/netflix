@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">5659b169838c7210c31199c0deaad320</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1hentb6qoenfq9poa4v8","filterName":"Assignment Group","filterComponentType":"multiselect","datasource":{"type":"pa","breakdown":{"sysId":"baec0752bf130100b96dac808c0739ed","breakdownSourceName":"Groups","isOfChoiceType":false,"type":"AUTOMATED","factsTable":"sys_user_group","field":"sys_id","targetTable":"sys_user_group"}},"targets":[{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"incident"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"change_request"}},{"type":"table","field":{"id":"task.assignment_group","type":"reference"},"table":{"id":"task_sla"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"problem"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_req_item"}},{"type":"table","field":{"id":"scr_assignment_group","type":"reference"},"table":{"id":"sc_request_metric"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_spotlight"}},{"type":"table","field":{"id":"instance.task_id.assignment_group","type":"reference"},"table":{"id":"asmt_metric_result"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_req_item"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_request"}},{"type":"table","field":{"id":"scr_assignment_group","type":"reference"},"table":{"id":"sc_request_sla"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_metric"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sla_breakdown_by_assignment"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_sla"}},{"type":"pa","breakdown":{"sysId":"baec0752bf130100b96dac808c0739ed","breakdownSourceName":"Groups","isOfChoiceType":false,"type":"AUTOMATED","factsTable":"sys_user_group","field":"sys_id","targetTable":"sys_user_group"}}],"defaultSelectedItems":[],"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"maxElements":500,"cascadeScope":"ea4ed848c31e3110458f1fec5440dda5","host":"dashboard","noDebounce":""}</component_props>
+        <h>4</h>
+        <name>Assignment Group</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa59b169838c7210c31199c0deaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>par_dashboard_widget_aa59b169838c7210c31199c0deaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix ">25c38028833b2210c31199c0deaad339</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>par_dashboard_widget_aa59b169838c7210c31199c0deaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">5659b169838c7210c31199c0deaad320</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1hentb6qoenfq9poa4v8","filterName":"Assignment Group","filterComponentType":"multiselect","datasource":{"type":"pa","breakdown":{"sysId":"baec0752bf130100b96dac808c0739ed","breakdownSourceName":"Groups","isOfChoiceType":false,"type":"AUTOMATED","factsTable":"sys_user_group","field":"sys_id","targetTable":"sys_user_group"}},"targets":[{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"incident"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"change_request"}},{"type":"table","field":{"id":"task.assignment_group","type":"reference"},"table":{"id":"task_sla"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"problem"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_req_item"}},{"type":"table","field":{"id":"scr_assignment_group","type":"reference"},"table":{"id":"sc_request_metric"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_spotlight"}},{"type":"table","field":{"id":"instance.task_id.assignment_group","type":"reference"},"table":{"id":"asmt_metric_result"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_req_item"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sc_request"}},{"type":"table","field":{"id":"scr_assignment_group","type":"reference"},"table":{"id":"sc_request_sla"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_metric"}},{"type":"table","field":{"id":"assignment_group","type":"reference"},"table":{"id":"sla_breakdown_by_assignment"}},{"type":"table","field":{"id":"inc_assignment_group","type":"reference"},"table":{"id":"incident_sla"}},{"type":"pa","breakdown":{"sysId":"baec0752bf130100b96dac808c0739ed","breakdownSourceName":"Groups","isOfChoiceType":false,"type":"AUTOMATED","factsTable":"sys_user_group","field":"sys_id","targetTable":"sys_user_group"}}],"defaultSelectedItems":[],"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"maxElements":500,"cascadeScope":"ea4ed848c31e3110458f1fec5440dda5","host":"dashboard","noDebounce":""}</component_props><h>4</h><name>Assignment Group</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:42:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa59b169838c7210c31199c0deaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assignment Group</sys_name><sys_overrides/><sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package><sys_policy/><sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope><sys_update_name>par_dashboard_widget_aa59b169838c7210c31199c0deaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:42:13</sys_updated_on><visualization/><w>7</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-726911325</payload_hash>
+        <record_name>Assignment Group</record_name>
+        <reverted_from/>
+        <source>441c9b2083332210c31199c0deaad3e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_id>2659b169838c7210c31199c0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958c50f760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>2a59b1694c8c72106f69fceb339cf25b</update_guid>
+        <update_guid_history>2a59b1694c8c72106f69fceb339cf25b:-726911325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Assignment Group">7659b169838c7210c31199c0deaad3d3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:15</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>76eb89fbf19340b699995c31fc686001</sys_id>
+        <sys_metadata>aa59b169838c7210c31199c0deaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_scope_delete display_value="">9dfa82e30ad6484caa5d021c82f72010</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_aa59b169838c7210c31199c0deaad35a</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_aa59b169838c7210c31199c0deaad35a">2659b169838c7210c31199c0deaad35c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

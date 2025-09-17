@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">5659b169838c7210c31199c0deaad320</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1hent9c3d9gecv1polg","filterName":"Priority","filterComponentType":"multiselect","datasource":{"type":"pa","breakdown":{"sysId":"0df47e02d7130100b96d45a3ce610399","breakdownSourceName":"Incident.Priority","isOfChoiceType":true,"type":"AUTOMATED","factsTable":"sys_choice","field":"sys_id","targetTable":"sys_choice"}},"targets":[{"type":"table","field":{"id":"priority","type":"choice"},"table":{"id":"incident"}},{"type":"table","field":{"id":"inc_priority","type":"choice"},"table":{"id":"incident_sla"}},{"type":"table","field":{"id":"inc_priority","type":"choice"},"table":{"id":"incident_spotlight"}},{"type":"pa","breakdown":{"sysId":"0df47e02d7130100b96d45a3ce610399","breakdownSourceName":"Incident.Priority","isOfChoiceType":true,"type":"AUTOMATED","factsTable":"sys_choice","field":"sys_id","targetTable":"sys_choice"}}],"defaultSelectedItems":[],"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"maxElements":500,"cascadeScope":"ea4ed848c31e3110458f1fec5440dda5","host":"dashboard","noDebounce":""}</component_props>
+        <h>4</h>
+        <name>Priority</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea59b169838c7210c31199c0deaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>7</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix ">25c38028833b2210c31199c0deaad339</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>par_dashboard_widget_ea59b169838c7210c31199c0deaad350</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">5659b169838c7210c31199c0deaad320</canvas><component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component><component_props>{"filterId":"1hent9c3d9gecv1polg","filterName":"Priority","filterComponentType":"multiselect","datasource":{"type":"pa","breakdown":{"sysId":"0df47e02d7130100b96d45a3ce610399","breakdownSourceName":"Incident.Priority","isOfChoiceType":true,"type":"AUTOMATED","factsTable":"sys_choice","field":"sys_id","targetTable":"sys_choice"}},"targets":[{"type":"table","field":{"id":"priority","type":"choice"},"table":{"id":"incident"}},{"type":"table","field":{"id":"inc_priority","type":"choice"},"table":{"id":"incident_sla"}},{"type":"table","field":{"id":"inc_priority","type":"choice"},"table":{"id":"incident_spotlight"}},{"type":"pa","breakdown":{"sysId":"0df47e02d7130100b96d45a3ce610399","breakdownSourceName":"Incident.Priority","isOfChoiceType":true,"type":"AUTOMATED","factsTable":"sys_choice","field":"sys_id","targetTable":"sys_choice"}}],"defaultSelectedItems":[],"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"maxElements":500,"cascadeScope":"ea4ed848c31e3110458f1fec5440dda5","host":"dashboard","noDebounce":""}</component_props><h>4</h><name>Priority</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:42:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ea59b169838c7210c31199c0deaad350</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Priority</sys_name><sys_overrides/><sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package><sys_policy/><sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope><sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad350</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:42:13</sys_updated_on><visualization/><w>7</w><widget_props/><x>7</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>272530518</payload_hash>
+        <record_name>Priority</record_name>
+        <reverted_from/>
+        <source>441c9b2083332210c31199c0deaad3e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_id>6659b169838c7210c31199c0deaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958c50eff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6a59b169f68c721065470ae7e47b6251</update_guid>
+        <update_guid_history>6a59b169f68c721065470ae7e47b6251:272530518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Priority">f659b169838c7210c31199c0deaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:15</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>a2447440a8de40c6b0de88bc6c54f249</sys_id>
+        <sys_metadata>ea59b169838c7210c31199c0deaad350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_scope_delete display_value="">9dfa82e30ad6484caa5d021c82f72010</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad350</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ea59b169838c7210c31199c0deaad350">6659b169838c7210c31199c0deaad352</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

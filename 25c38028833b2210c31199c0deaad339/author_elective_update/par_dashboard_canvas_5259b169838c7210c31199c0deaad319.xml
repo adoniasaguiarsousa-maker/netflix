@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Incident Management - Copy">de597169838c7210c31199c0deaad3f7</dashboard>
+        <dashboard_tab display_value="New Tab 1">d259b169838c7210c31199c0deaad316</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5259b169838c7210c31199c0deaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>par_dashboard_canvas_5259b169838c7210c31199c0deaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:12</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix ">25c38028833b2210c31199c0deaad339</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>par_dashboard_canvas_5259b169838c7210c31199c0deaad319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Incident Management - Copy">de597169838c7210c31199c0deaad3f7</dashboard><dashboard_tab display_value="New Tab 1">d259b169838c7210c31199c0deaad316</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:42:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5259b169838c7210c31199c0deaad319</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package><sys_policy/><sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope><sys_update_name>par_dashboard_canvas_5259b169838c7210c31199c0deaad319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:42:12</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>488992029</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>441c9b2083332210c31199c0deaad3e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:12</sys_created_on>
+        <sys_id>1e59b169838c7210c31199c0deaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958c50bc10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:12</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>1259b1698c8c7210fb4afe0b6c92821a</update_guid>
+        <update_guid_history>1259b1698c8c7210fb4afe0b6c92821a:488992029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a659b169838c7210c31199c0deaad360</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>1b5d2e6e7a7444b88e55e31f52d31210</sys_id>
+        <sys_metadata>5259b169838c7210c31199c0deaad319</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_scope_delete display_value="">9dfa82e30ad6484caa5d021c82f72010</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_5259b169838c7210c31199c0deaad319</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_5259b169838c7210c31199c0deaad319">1e59b169838c7210c31199c0deaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

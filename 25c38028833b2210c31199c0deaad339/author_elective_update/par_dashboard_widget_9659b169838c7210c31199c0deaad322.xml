@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">5659b169838c7210c31199c0deaad320</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":false,"allowTotalValue":false,"indicatorType":"2","isScriptedIndicator":false,"label":"% high priority incidents","sourceType":"indicator","uuid":{"indicator":"5e0d524d47e5311062b0016c416d4353","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yNWUwZDUyNGQ0N2U1MzExMDYyYjAwMTZjNDE2ZDQzNTMxNjk4NjQ5NzM2Njg5","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"% high priority incidents","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yNWUwZDUyNGQ0N2U1MzExMDYyYjAwMTZjNDE2ZDQzNTMxNjk4NjQ5NzM2Njg5","id":"YVc1a2FXTmhkRzl5TldVd1pEVXlOR1EwTjJVMU16RXhNRFl5WWpBd01UWmpOREUyWkRRek5UTXhOams0TmpRNU56TTJOamc1MTY5ODY0OTczNzU1OQ==","aggregateIndicator":"587fad00eb31020065deac6aa206fea5","frequency":40,"numberFormat":{"customFormat":false},"axisId":"primary","frequencyInterval":"MONTH_PLUS"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TldVd1pEVXlOR1EwTjJVMU16RXhNRFl5WWpBd01UWmpOREUyWkRRek5UTXhOams0TmpRNU56TTJOamc1MTY5ODY0OTczNzU1OQ=="}]},"showChange":null,"showChangePercentage":null,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":12,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","noDebounce":"","componentId":"dng5cr2e","description":"Percentage of P1 and P2 incidents that are successfully closed."}</component_props>
+        <h>14</h>
+        <name>% high priority incidents</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9659b169838c7210c31199c0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>% high priority incidents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>par_dashboard_widget_9659b169838c7210c31199c0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>52</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix ">25c38028833b2210c31199c0deaad339</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>par_dashboard_widget_9659b169838c7210c31199c0deaad322</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">5659b169838c7210c31199c0deaad320</canvas><component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":false,"allowTotalValue":false,"indicatorType":"2","isScriptedIndicator":false,"label":"% high priority incidents","sourceType":"indicator","uuid":{"indicator":"5e0d524d47e5311062b0016c416d4353","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yNWUwZDUyNGQ0N2U1MzExMDYyYjAwMTZjNDE2ZDQzNTMxNjk4NjQ5NzM2Njg5","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"% high priority incidents","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yNWUwZDUyNGQ0N2U1MzExMDYyYjAwMTZjNDE2ZDQzNTMxNjk4NjQ5NzM2Njg5","id":"YVc1a2FXTmhkRzl5TldVd1pEVXlOR1EwTjJVMU16RXhNRFl5WWpBd01UWmpOREUyWkRRek5UTXhOams0TmpRNU56TTJOamc1MTY5ODY0OTczNzU1OQ==","aggregateIndicator":"587fad00eb31020065deac6aa206fea5","frequency":40,"numberFormat":{"customFormat":false},"axisId":"primary","frequencyInterval":"MONTH_PLUS"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TldVd1pEVXlOR1EwTjJVMU16RXhNRFl5WWpBd01UWmpOREUyWkRRek5UTXhOams0TmpRNU56TTJOamc1MTY5ODY0OTczNzU1OQ=="}]},"showChange":null,"showChangePercentage":null,"showTarget":true,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":12,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","noDebounce":"","componentId":"dng5cr2e","description":"Percentage of P1 and P2 incidents that are successfully closed."}</component_props><h>14</h><name>% high priority incidents</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:42:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9659b169838c7210c31199c0deaad322</sys_id><sys_mod_count>0</sys_mod_count><sys_name>% high priority incidents</sys_name><sys_overrides/><sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package><sys_policy/><sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope><sys_update_name>par_dashboard_widget_9659b169838c7210c31199c0deaad322</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:42:13</sys_updated_on><visualization/><w>24</w><widget_props/><x>24</x><y>52</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1051032217</payload_hash>
+        <record_name>% high priority incidents</record_name>
+        <reverted_from/>
+        <source>441c9b2083332210c31199c0deaad3e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_id>d259b169838c7210c31199c0deaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958c50e0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>9659b169388c7210174ff38377097424</update_guid>
+        <update_guid_history>9659b169388c7210174ff38377097424:1051032217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="% high priority incidents">7e59b169838c7210c31199c0deaad3be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:14</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0507d912ffbe4126809e498c3197dba4</sys_id>
+        <sys_metadata>9659b169838c7210c31199c0deaad322</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>% high priority incidents</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_scope_delete display_value="">9dfa82e30ad6484caa5d021c82f72010</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9659b169838c7210c31199c0deaad322</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9659b169838c7210c31199c0deaad322">d259b169838c7210c31199c0deaad325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

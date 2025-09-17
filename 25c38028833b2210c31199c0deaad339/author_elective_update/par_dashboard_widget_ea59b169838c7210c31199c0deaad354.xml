@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">5659b169838c7210c31199c0deaad320</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Total outages due to incidents","sourceType":"indicator","uuid":{"indicator":"2fab3c87c3523110458f1fec5440ddfc","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yMmZhYjNjODdjMzUyMzExMDQ1OGYxZmVjNTQ0MGRkZmMxNjk5NDYxNzQ5MTAx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Total outages due to incidents","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMmZhYjNjODdjMzUyMzExMDQ1OGYxZmVjNTQ0MGRkZmMxNjk5NDYxNzQ5MTAx","id":"YVc1a2FXTmhkRzl5TW1aaFlqTmpPRGRqTXpVeU16RXhNRFExT0dZeFptVmpOVFEwTUdSa1ptTXhOams1TkRZeE56UTVNVEF4MTY5OTQ2MTc1MDA3OA==","aggregateIndicator":"1d7a2073eb21020065deac6aa206fe5c","frequency":40,"numberFormat":{"customFormat":false},"axisId":"primary","frequencyInterval":"MONTH_PLUS"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TW1aaFlqTmpPRGRqTXpVeU16RXhNRFExT0dZeFptVmpOVFEwTUdSa1ptTXhOams1TkRZeE56UTVNVEF4MTY5OTQ2MTc1MDA3OA=="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[{"order":0,"filterId":"1henrisp25a4bsssceu8","type":"date","label":"Period","start":"2022-11-01","end":"2023-10-31","dynamicTimeRange":"SN_DYNAMIC_DATERANGE__LAST_12_MONTH","apply_to":[]}],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":12,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","noDebounce":"","componentId":"e9ddxipf","description":"Total outages (in hours) caused due to incidents."}</component_props>
+        <h>14</h>
+        <name>Total outages due to incidents</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea59b169838c7210c31199c0deaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total outages due to incidents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>0</x>
+        <y>80</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix ">25c38028833b2210c31199c0deaad339</application>
+        <file_path/>
+        <instance_id>fd0d775d1b460a1465324089bd4bcb6c</instance_id>
+        <instance_name>dev265639</instance_name>
+        <name>par_dashboard_widget_ea59b169838c7210c31199c0deaad354</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">5659b169838c7210c31199c0deaad320</canvas><component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showXGrid":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Total outages due to incidents","sourceType":"indicator","uuid":{"indicator":"2fab3c87c3523110458f1fec5440ddfc","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yMmZhYjNjODdjMzUyMzExMDQ1OGYxZmVjNTQ0MGRkZmMxNjk5NDYxNzQ5MTAx","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Total outages due to incidents","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMmZhYjNjODdjMzUyMzExMDQ1OGYxZmVjNTQ0MGRkZmMxNjk5NDYxNzQ5MTAx","id":"YVc1a2FXTmhkRzl5TW1aaFlqTmpPRGRqTXpVeU16RXhNRFExT0dZeFptVmpOVFEwTUdSa1ptTXhOams1TkRZeE56UTVNVEF4MTY5OTQ2MTc1MDA3OA==","aggregateIndicator":"1d7a2073eb21020065deac6aa206fe5c","frequency":40,"numberFormat":{"customFormat":false},"axisId":"primary","frequencyInterval":"MONTH_PLUS"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByFields":[{"field":"anything","metric":"YVc1a2FXTmhkRzl5TW1aaFlqTmpPRGRqTXpVeU16RXhNRFExT0dZeFptVmpOVFEwTUdSa1ptTXhOams1TkRZeE56UTVNVEF4MTY5OTQ2MTc1MDA3OA=="}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[{"order":0,"filterId":"1henrisp25a4bsssceu8","type":"date","label":"Period","start":"2022-11-01","end":"2023-10-31","dynamicTimeRange":"SN_DYNAMIC_DATERANGE__LAST_12_MONTH","apply_to":[]}],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":12,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","noDebounce":"","componentId":"e9ddxipf","description":"Total outages (in hours) caused due to incidents."}</component_props><h>14</h><name>Total outages due to incidents</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:42:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ea59b169838c7210c31199c0deaad354</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Total outages due to incidents</sys_name><sys_overrides/><sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package><sys_policy/><sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope><sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad354</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:42:13</sys_updated_on><visualization/><w>24</w><widget_props/><x>0</x><y>80</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1835056900</payload_hash>
+        <record_name>Total outages due to incidents</record_name>
+        <reverted_from/>
+        <source>441c9b2083332210c31199c0deaad3e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:13</sys_created_on>
+        <sys_id>6659b169838c7210c31199c0deaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958c50f2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6a59b169118c7210734df305cb406155</update_guid>
+        <update_guid_history>6a59b169118c7210734df305cb406155:1835056900</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Total outages due to incidents">cb59b169838c7210c31199c0deaad3e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:42:15</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>6c6afe73ac6f4d75b2f03d9f271b95a1</sys_id>
+        <sys_metadata>ea59b169838c7210c31199c0deaad354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total outages due to incidents</sys_name>
+        <sys_package display_value="Netflix " source="x_1795292_netflix">25c38028833b2210c31199c0deaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix ">25c38028833b2210c31199c0deaad339</sys_scope>
+        <sys_scope_delete display_value="">9dfa82e30ad6484caa5d021c82f72010</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ea59b169838c7210c31199c0deaad354</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ea59b169838c7210c31199c0deaad354">6659b169838c7210c31199c0deaad356</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:42:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
